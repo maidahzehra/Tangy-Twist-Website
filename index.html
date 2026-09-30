@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangy Twist - Authentic Irani Lavashak & Sour Treats</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="Images/logo.jpeg" alt="Tangy Twist Logo" class="logo-img">
+            <h1>Tangy Twist</h1>
+        </div>
+        <a href="https://wa.me/923000000000" target="_blank" class="head-btn">Order on WhatsApp</a>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <h2>Craving Sour & Tangy Goodness? 🤤</h2>
+        <p>Authentic Irani Lavashak, Fruit Leathers, Sour Balls & Tamarind Bites in Karachi!</p>
+        <a href="#menu" class="cta-btn">View Full Menu</a>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-container">
+        <h2>Our Delicious Menu</h2>
+        <div class="products-grid">
+
+            <!-- Item 1 -->
+            <div class="card">
+                <img src="Images/lavashak.jpeg.jpeg" alt="Authentic Irani Lavashak" class="product-img">
+                <h3>Authentic Irani Lavashak</h3>
+                <p class="desc">Traditional sour fruit roll-up packed with bold tangy flavours.</p>
+                <div class="pricing">
+                    <span>3 pcs: <strong>Rs. 600</strong></span>
+                    <span>5 pcs: <strong>Rs. 1,200</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Authentic Irani Lavashak')">Order via WhatsApp</button>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="card">
+                <img src="Images/mixbox.jpeg.jpeg" alt="Mix Box" class="product-img">
+                <h3>Mix Box</h3>
+                <p class="desc">3 Lavashak + 2 Sour Balls + 8 Tamarind Bites</p>
+                <div class="pricing">
+                    <span>Full Box: <strong>Rs. 1,200</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Mix Box')">Order via WhatsApp</button>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="card">
+                <img src="Images/minimixbox.jpeg.jpeg" alt="Mini Mix Box" class="product-img">
+                <h3>Mini Mix Box (Taster)</h3>
+                <p class="desc">2 Lavashak + 1 Sour Ball + 4 Tamarind Bites</p>
+                <div class="pricing">
+                    <span>Sample Box: <strong>Rs. 600</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Mini Mix Box')">Order via WhatsApp</button>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="card">
+                <img src="Images/sourballs.jpeg.jpeg" alt="Sour Balls" class="product-img">
+                <h3>Sour Balls</h3>
+                <p class="desc">Mouth-watering tangy sour candy balls.</p>
+                <div class="pricing">
+                    <span>10 pcs: <strong>Rs. 650</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Sour Balls')">Order via WhatsApp</button>
+            </div>
+
+            <!-- Item 5 -->
+            <div class="card">
+                <img src="Images/tamarindbites.jpeg.jpeg" alt="Tamarind Bites Box" class="product-img">
+                <h3>Tamarind Bites Box</h3>
+                <p class="desc">Rich, chatpati imli bites packed with fresh flavor.</p>
+                <div class="pricing">
+                    <span>250g Box: <strong>Rs. 650</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Tamarind Bites Box')">Order via WhatsApp</button>
+            </div>
+
+            <!-- Item 6 -->
+            <div class="card">
+                <img src="Images/fruitleather.jpeg.jpeg" alt="Lavashak Fruit Leather" class="product-img">
+                <h3>Lavashak Fruit Leather</h3>
+                <p class="desc">Tasty chewy fruit roll (Assorted flavours).</p>
+                <div class="pricing">
+                    <span>Per Piece: <strong>Rs. 100</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Lavashak Fruit Leather')">Order via WhatsApp</button>
+            </div>
+
+            <!-- Item 7 -->
+            <div class="card">
+                <img src="Images/fruitybar.jpeg.jpeg" alt="Fruity Bar" class="product-img">
+                <h3>Fruity Bar</h3>
+                <p class="desc">Sweet and sour bite-sized fruit bars.</p>
+                <div class="pricing">
+                    <span>20 pcs: <strong>Rs. 300</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Fruity Bar')">Order via WhatsApp</button>
+            </div>
+
+            <!-- Item 8 -->
+            <div class="card">
+                <img src="Images/hampa.jpeg.jpeg" alt="Hampa" class="product-img">
+                <h3>Hampa</h3>
+                <p class="desc">Classic tangy fruit treats.</p>
+                <div class="pricing">
+                    <span>20 pcs: <strong>Rs. 300</strong></span>
+                </div>
+                <button class="order-btn" onclick="orderWhatsApp('Hampa')">Order via WhatsApp</button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Tangy Twist. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
